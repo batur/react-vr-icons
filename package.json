@@ -1,0 +1,33 @@
+{
+  "name": "react-vr-icons",
+  "version": "0.0.1",
+  "author": "Batur Akkurt",
+  "license": "MIT",
+  "repository": "batur/react-vr-icons",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=10"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "module": "dist/index.es.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch --no-compress"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "microbundle": "^0.15.1",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
