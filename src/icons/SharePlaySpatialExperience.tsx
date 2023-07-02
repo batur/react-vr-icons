@@ -1,8 +1,14 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgSharePlaySpatialExperience = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeLinecap='round' strokeWidth={props.strokeWidth} clipPath='url(#share-play-spatial-experience_svg__a)'>
+const SvgSharePlaySpatialExperience = ({
+  width = 16,
+  height = 16,
+  color = '#000',
+  strokeWidth = 1.5,
+  ...props
+}: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} clipPath='url(#share-play-spatial-experience_svg__a)'>
       <path d='M13.722 22.885h4.595M1.883 43.102l-.95 2.881a1 1 0 0 0 .95 1.313h44.235a1 1 0 0 0 .95-1.313l-.95-2.881M29.756 22.885h4.504' />
       <path
         strokeLinejoin='round'

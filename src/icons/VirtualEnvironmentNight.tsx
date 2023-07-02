@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualEnvironmentNight = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeLinecap='round' strokeWidth={props.strokeWidth} clipPath='url(#virtual-environment-night_svg__a)'>
+const SvgVirtualEnvironmentNight = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} clipPath='url(#virtual-environment-night_svg__a)'>
       <path
         strokeLinejoin='round'
         d='M24 35.422a5.194 5.194 0 1 0 0-10.388 5.194 5.194 0 0 0 0 10.388ZM42.934 18.835a7.52 7.52 0 0 1-7.52-7.52c.01-.816.153-1.625.425-2.394a7.5 7.5 0 1 0 9.49 9.49 7.467 7.467 0 0 1-2.395.424v0ZM33.121 46.79a9.204 9.204 0 0 0-18.244 0M16.311 11.24v4.988M7.006 21.506v4.988M18.806 13.733h-4.988M9.5 24H4.512'

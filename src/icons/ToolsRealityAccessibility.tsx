@@ -1,8 +1,14 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgToolsRealityAccessibility = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeWidth={props.strokeWidth} clipPath='url(#tools-reality-accessibility_svg__a)'>
+const SvgToolsRealityAccessibility = ({
+  width = 16,
+  height = 16,
+  color = '#000',
+  strokeWidth = 1.5,
+  ...props
+}: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#tools-reality-accessibility_svg__a)'>
       <circle cx={24} cy={24} r={22.805} />
       <circle cx={24} cy={10.848} r={2.897} />
       <path

@@ -1,12 +1,18 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgAppleVisionProSpaceVolume = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
+const SvgAppleVisionProSpaceVolume = ({
+  width = 16,
+  height = 16,
+  color = '#000',
+  strokeWidth = 1.5,
+  ...props
+}: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g
-      stroke={props.color}
+      stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
-      strokeWidth={props.strokeWidth}
+      strokeWidth={strokeWidth}
       clipPath='url(#apple-vision-pro-space-volume_svg__a)'
     >
       <path d='M38.782 35.906V16.18L19.92 5.474M38.816 16.163l7.867-4.466M27.85 1.572v2.822M27.85 8.345v2.822M27.85 15.117v2.822' />

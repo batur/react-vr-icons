@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsSearch = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeLinecap='round' strokeWidth={props.strokeWidth} clipPath='url(#vr-os-search_svg__a)'>
+const SvgVrOsSearch = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} clipPath='url(#vr-os-search_svg__a)'>
       <path
         strokeLinejoin='round'
         d='M5.137 15.387a5.462 5.462 0 0 0 5.462 5.462H37.4a5.462 5.462 0 0 0 0-10.924H10.599a5.462 5.462 0 0 0-5.462 5.462Z'

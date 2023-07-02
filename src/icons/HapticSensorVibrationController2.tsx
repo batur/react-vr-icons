@@ -3,8 +3,8 @@ import { SVGProps, memo } from 'react';
 const SvgHapticSensorVibrationController2 = (
   props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 },
 ) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeWidth={props.strokeWidth} clipPath='url(#haptic-sensor-vibration-controller-2_svg__a)'>
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#haptic-sensor-vibration-controller-2_svg__a)'>
       <path
         strokeLinecap='round'
         d='M24.808 5.386c-8.405 0-10.507 7.005-10.507 10.507 0 7.004 3.036 11.44 10.507 10.507 9.34-1.168 15.176-5.837 15.176-10.507S35.314 5.386 24.808 5.386Z'

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrController2 = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeWidth={props.strokeWidth} clipPath='url(#vr-controller-2_svg__a)'>
+const SvgVrController2 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#vr-controller-2_svg__a)'>
       <path
         strokeLinejoin='round'
         d='M11.574 29.63c-5.523 0-10-4.478-10-10.001v-5.99h24.849l17.803 17.804A7.303 7.303 0 0 1 33.898 41.77L21.756 29.63H11.574Z'

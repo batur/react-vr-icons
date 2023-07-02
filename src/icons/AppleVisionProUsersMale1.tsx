@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgAppleVisionProUsersMale1 = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeWidth={props.strokeWidth} clipPath='url(#apple-vision-pro-users-male-1_svg__a)'>
+const SvgAppleVisionProUsersMale1 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#apple-vision-pro-users-male-1_svg__a)'>
       <path d='M9.546 25.43a8.11 8.11 0 0 1 7.391-8.076l2.455-.219a59.998 59.998 0 0 1 10.626 0l2.45.218a8.113 8.113 0 0 1 7.395 8.081v.877a6.937 6.937 0 0 1-4.958 6.65 7.708 7.708 0 0 1-7.302-1.611l-1.428-1.262c-.84-.74-2.1-.739-2.937.005l-1.391 1.236a7.724 7.724 0 0 1-7.325 1.63 6.951 6.951 0 0 1-4.976-6.664v-.864Z' />
       <path d='M31 28.284a.484.484 0 1 1 0-.968M31 28.284a.484.484 0 0 0 0-.968M18.41 28.284a.484.484 0 1 1 0-.968M18.41 28.284a.484.484 0 0 0 0-.968' />
       <path

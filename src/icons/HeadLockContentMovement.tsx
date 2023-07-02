@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgHeadLockContentMovement = (props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 }) => (
-  <svg xmlns='http://www.w3.org/2000/svg' width={props.width} height={props.height} fill='none' viewBox='0 0 48 48' {...props}>
-    <g stroke={props.color} strokeWidth={props.strokeWidth} clipPath='url(#head-lock-content-movement_svg__a)'>
+const SvgHeadLockContentMovement = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+  <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
+    <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#head-lock-content-movement_svg__a)'>
       <path
         strokeLinejoin='round'
         d='M20.622 1.756a1 1 0 0 0-1.684-.495L1.022 19.177a1 1 0 0 0 .495 1.684l4.741 1.03a3 3 0 0 0 2.759-.81L20.843 9.256a3 3 0 0 0 .81-2.759l-1.03-4.741Z'
