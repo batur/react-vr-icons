@@ -118,3 +118,6 @@ export { default as VrSupportedMediaFile3 } from './icons/VrSupportedMediaFile3'
 export { default as VrSupportedMediaFile4 } from './icons/VrSupportedMediaFile4';
 export { default as WindowWorkspace2 } from './icons/WindowWorkspace2';
 export { default as WindowWorkspace } from './icons/WindowWorkspace';
+
+import * as Icons from './icons';
+export default Icons;
