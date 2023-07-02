@@ -10,7 +10,7 @@
   },
   "type": "module",
   "main": "dist/index.js",
-  "source": "src/index.js",
+  "source": "src/index.ts",
   "module": "dist/index.es.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
