@@ -1,28 +1,28 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualMeasuringVolume = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVirtualMeasuringVolume = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='m23.986 9.857-12.823 6.429v15.428l12.823 6.429 12.824-6.429V16.286L23.986 9.857Z'
+      d='m23.986 9.857-12.823 6.429v15.428l12.823 6.429 12.824-6.429V24.286L23.986 9.857Z'
     />
-    <path stroke={color} strokeLinejoin='round' strokeWidth={strokeWidth} d='m11.152 16.508 12.88 6.646 12.816-6.646' />
+    <path stroke={color} strokeLinejoin='round' strokeWidth={strokeWidth} d='m11.152 24.508 12.88 6.646 12.824-6.646' />
     <path
       stroke={color}
       strokeDasharray='3 3'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='m11.152 22.725 12.88 6.646 12.816-6.646'
+      d='m11.152 22.725 12.88 6.646 12.824-6.646'
     />
     <path
       stroke={color}
       strokeDasharray='3 3'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='m36.848 23.154-12.88-6.646-12.816 6.646'
+      d='m36.848 23.154-12.88-6.646-12.824 6.646'
     />
     <path stroke={color} strokeLinecap='round' strokeLinejoin='round' strokeWidth={strokeWidth} d='M23.97 38.143v-14.99' />
     <path

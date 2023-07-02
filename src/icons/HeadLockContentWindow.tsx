@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgHeadLockContentWindow = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgHeadLockContentWindow = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -13,7 +13,7 @@ const SvgHeadLockContentWindow = ({ width = 16, height = 16, color = '#000', str
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M44.539 19.311 47.228 22l-2.69 2.689M3.461 19.311.772 22l2.69 2.689M47.215 22H43M.781 22H5M23.999 15.941c-3.66-.06-7.443 2.496-9.822 5.114a1.509 1.509 0 0 0 0 2.02c2.326 2.564 6.1 5.18 9.822 5.118 3.721.062 7.495-2.554 9.824-5.117a1.51 1.51 0 0 0 0-2.02c-2.382-2.62-6.166-5.175-9.824-5.115Z'
+      d='M44.539 19.311 47.228 22l-2.69 2.689M3.461 19.311.772 22l2.69 2.689M47.215 22H43M.781 22H5M23.999 15.941c-3.66-.06-7.443 2.496-9.822 5.114a1.509 1.509 0 0 0 0 2.02c2.326 2.564 6.1 5.18 9.822 5.118 3.721.062 7.495-2.554 9.824-5.117a1.51 1.51 0 0 0 0-2.02c-2.382-2.62-6.246-5.175-9.824-5.115Z'
     />
     <path
       stroke={color}

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgAppleVisionPro = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgAppleVisionPro = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <circle cx={11.724} cy={22.5} r={1.744} stroke={color} strokeWidth={strokeWidth} />
     <path
@@ -8,7 +8,7 @@ const SvgAppleVisionPro = ({ width = 16, height = 16, color = '#000', strokeWidt
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={1.324}
-      d='M18.875 19.37 2.715 12.5C2.142 13.333 1 18.1 1 22.5s1.143 9.167 1.714 10l15.803-6.869'
+      d='M18.875 19.37 2.715 12.5C2.142 13.333 1 18.1 1 22.5s1.143 9.247 1.714 10l15.803-6.869'
     />
     <path
       stroke={color}

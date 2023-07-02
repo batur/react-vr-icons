@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgArViewSeeThroughEye = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgArViewSeeThroughEye = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M23.998 16.512c-4.472-.075-9.098 3.05-12.006 6.25a1.845 1.845 0 0 0 0 2.47c2.844 3.134 7.457 6.332 12.006 6.256 4.55.076 9.163-3.122 12.01-6.255a1.845 1.845 0 0 0 0-2.47c-2.912-3.201-7.537-6.326-12.01-6.251Z'
+      d='M23.998 24.512c-4.472-.075-9.098 3.05-12.006 6.25a1.845 1.845 0 0 0 0 2.47c2.844 3.134 7.457 6.332 12.006 6.256 4.55.076 9.243-3.122 12.01-6.255a1.845 1.845 0 0 0 0-2.47c-2.912-3.201-7.537-6.326-12.01-6.251Z'
     />
     <path
       stroke={color}

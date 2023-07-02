@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
 const SvgHapticSensorVibrationController = (
-  props: SVGProps<SVGSVGElement> = { width: 16, height: 16, color: '#000', strokeWidth: 1.5 },
+  props: SVGProps<SVGSVGElement> = { width: 24, height: 24, color: '#000', strokeWidth: 1.5 },
 ) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#haptic-sensor-vibration-controller_svg__a)'>
@@ -11,7 +11,7 @@ const SvgHapticSensorVibrationController = (
       />
       <path
         strokeLinecap='round'
-        d='M5.691 12.488h3.634M16.563 10.474h7.268M20.196 17.725v-7.25M15.978 32.296c.596 1.118 1.032 2.606.92 4.417-.083 1.363.867 2.714 2.233 2.714h8.43'
+        d='M5.691 12.488h3.634M24.563 10.474h7.268M20.196 17.725v-7.25M15.978 32.296c.596 1.118 1.032 2.606.92 4.417-.083 1.363.867 2.714 2.233 2.714h8.43'
       />
       <path strokeLinecap='round' strokeLinejoin='round' d='m44.32 18.361.405-4.223-4.223-.405.405-4.224-4.223-.405.406-4.223-4.224-.406' />
     </g>

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgHapticSensorVibration = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgHapticSensorVibration = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -13,7 +13,7 @@ const SvgHapticSensorVibration = ({ width = 16, height = 16, color = '#000', str
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M18.299 12.31c-2.854 1.543-5.477 5.477-5.677 9.2 18.164-1.257 29.465 5.95 32.76 9.743.667-1.328 1.326-4 0-6.072-9.29-14.52-23.158-13.868-27.083-12.871Z'
+      d='M18.299 12.31c-2.854 1.543-5.477 5.477-5.677 9.2 18.244-1.257 29.465 5.95 32.76 9.743.667-1.328 1.326-4 0-6.072-9.29-14.52-23.158-13.868-27.083-12.871Z'
     />
     <path
       stroke={color}
@@ -32,7 +32,7 @@ const SvgHapticSensorVibration = ({ width = 16, height = 16, color = '#000', str
     <path
       stroke={color}
       strokeWidth={strokeWidth}
-      d='M20.677 31.016a.5.5 0 0 1 .997-.08M20.677 31.016a.5.5 0 0 0 .997-.08M17.57 41.71a.5.5 0 1 1 .996-.08'
+      d='M20.677 31.024a.5.5 0 0 1 .997-.08M20.677 31.024a.5.5 0 0 0 .997-.08M17.57 41.71a.5.5 0 1 1 .996-.08'
     />
     <path stroke={color} strokeWidth={strokeWidth} d='M17.57 41.71a.5.5 0 0 0 .996-.08' />
   </svg>

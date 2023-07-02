@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgAppleVisionProUsersMale = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgAppleVisionProUsersMale = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} clipPath='url(#apple-vision-pro-users-male_svg__a)'>
       <path
@@ -25,7 +25,7 @@ const SvgAppleVisionProUsersMale = ({ width = 16, height = 16, color = '#000', s
         strokeLinecap='round'
         strokeLinejoin='round'
         strokeWidth={1.324}
-        d='M10.151 22.355A6.406 6.406 0 0 1 10 22c-1.246-3.486-2.33-10.988 3.306-13.108.168-2.828 2.818-8.058 12.077-6.362C36.955 4.65 41.484 3.59 42.49 2c.336 1.414.202 4.665-3.019 6.362.839.353 2.919.848 4.529 0-.168 1.767-1.409 5.407-5.032 5.832.67.53 1.61 2.65 0 6.891a4.06 4.06 0 0 1-.175.321'
+        d='M10.151 22.355A6.406 6.406 0 0 1 10 22c-1.246-3.486-2.33-10.988 3.306-13.108.248-2.828 2.818-8.058 12.077-6.362C36.955 4.65 41.484 3.59 42.49 2c.336 1.414.202 4.665-3.019 6.362.839.353 2.919.848 4.529 0-.248 1.767-1.409 5.407-5.032 5.832.67.53 1.61 2.65 0 6.891a4.06 4.06 0 0 1-.175.321'
       />
       <path
         strokeLinecap='round'

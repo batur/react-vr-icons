@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgCastToDevicesTv = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgCastToDevicesTv = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -12,7 +12,7 @@ const SvgCastToDevicesTv = ({ width = 16, height = 16, color = '#000', strokeWid
     <path
       stroke={color}
       strokeWidth={strokeWidth}
-      d='M10.748 39.277v.756a6.077 6.077 0 0 0 4.35 5.826 6.752 6.752 0 0 0 6.404-1.426l1.216-1.08a1.936 1.936 0 0 1 2.567-.004l1.249 1.103a6.738 6.738 0 0 0 6.383 1.407 6.065 6.065 0 0 0 4.334-5.812v-.767a7.092 7.092 0 0 0-6.464-7.064l-2.142-.19c-3.36-.175-3.312-.166-4.585-.166h-.12c-1.274 0-1.225-.009-4.585.166l-2.142.19a7.092 7.092 0 0 0-6.465 7.065'
+      d='M10.748 39.277v.756a6.077 6.077 0 0 0 4.35 5.826 6.752 6.752 0 0 0 6.404-1.426l1.224-1.08a1.936 1.936 0 0 1 2.567-.004l1.249 1.103a6.738 6.738 0 0 0 6.383 1.407 6.065 6.065 0 0 0 4.334-5.812v-.767a7.092 7.092 0 0 0-6.464-7.064l-2.142-.19c-3.36-.175-3.312-.246-4.585-.246h-.12c-1.274 0-1.225-.009-4.585.246l-2.142.19a7.092 7.092 0 0 0-6.465 7.065'
     />
     <path
       stroke={color}

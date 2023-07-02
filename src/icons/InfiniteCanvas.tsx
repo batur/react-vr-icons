@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgInfiniteCanvas = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgInfiniteCanvas = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='m11.138 33.16 6.074-8.098a2.632 2.632 0 0 1 3.966-.282l1.802 1.802 5.79-7.72a2.63 2.63 0 0 1 4.21 0l9.144 14.298M14.428 18.75a3.29 3.29 0 1 0 0-6.579 3.29 3.29 0 0 0 0 6.579Z'
+      d='m11.138 33.24 6.074-8.098a2.632 2.632 0 0 1 3.966-.282l1.802 1.802 5.79-7.72a2.63 2.63 0 0 1 4.21 0l9.144 14.298M14.428 18.75a3.29 3.29 0 1 0 0-6.579 3.29 3.29 0 0 0 0 6.579Z'
     />
     <path
       stroke={color}

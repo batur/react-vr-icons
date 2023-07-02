@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrSupportedMediaFile2 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrSupportedMediaFile2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -25,7 +25,7 @@ const SvgVrSupportedMediaFile2 = ({ width = 16, height = 16, color = '#000', str
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M13.95 24.852a1.189 1.189 0 0 1-1.268-.064 1.405 1.405 0 0 1-.454-.531 1.6 1.6 0 0 1-.164-.712v-9.873a1.6 1.6 0 0 1 .165-.712c.108-.217.264-.4.453-.531s.405-.206.627-.217c.222-.011.443.041.642.152l8.819 4.94c.216.12.399.307.526.537.127.23.195.496.195.767s-.068.537-.195.768a1.37 1.37 0 0 1-.526.538l-8.82 4.938Z'
+      d='M13.95 24.852a1.189 1.189 0 0 1-1.268-.064 1.405 1.405 0 0 1-.454-.531 1.6 1.6 0 0 1-.244-.712v-9.873a1.6 1.6 0 0 1 .245-.712c.108-.217.264-.4.453-.531s.405-.206.627-.217c.222-.011.443.041.642.152l8.819 4.94c.224.12.399.307.526.537.127.23.195.496.195.767s-.068.537-.195.768a1.37 1.37 0 0 1-.526.538l-8.82 4.938Z'
     />
   </svg>
 );

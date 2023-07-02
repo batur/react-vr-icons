@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgArViewSeeThroughDevice = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgArViewSeeThroughDevice = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -12,13 +12,13 @@ const SvgArViewSeeThroughDevice = ({ width = 16, height = 16, color = '#000', st
     <path
       stroke={color}
       strokeWidth={strokeWidth}
-      d='M12.718 24.039c0-3.34 2.54-6.13 5.864-6.444l1.295-.122a43.892 43.892 0 0 1 8.243 0l1.292.122a6.475 6.475 0 0 1 5.868 6.447v.47a5.834 5.834 0 0 1-4.078 5.563c-1.699.537-3.544.35-5.102-.516l-1.173-.652a1.905 1.905 0 0 0-1.856.002l-1.141.638a6.495 6.495 0 0 1-5.12.528 5.846 5.846 0 0 1-4.092-5.577v-.46Z'
+      d='M12.718 24.039c0-3.34 2.54-6.13 5.864-6.444l1.295-.122a43.892 43.892 0 0 1 8.243 0l1.292.122a6.475 6.475 0 0 1 5.868 6.447v.47a5.834 5.834 0 0 1-4.078 5.563c-1.699.537-3.544.35-5.102-.524l-1.173-.652a1.905 1.905 0 0 0-1.856.002l-1.141.638a6.495 6.495 0 0 1-5.12.528 5.846 5.846 0 0 1-4.092-5.577v-.46Z'
     />
     <path
       stroke={color}
       strokeLinecap='round'
       strokeWidth={strokeWidth}
-      d='m27.686 22.497-1.163-.103a28.48 28.48 0 0 0-5.046 0l-1.166.103'
+      d='m27.686 22.497-1.243-.103a28.48 28.48 0 0 0-5.046 0l-1.246.103'
     />
     <path
       stroke={color}

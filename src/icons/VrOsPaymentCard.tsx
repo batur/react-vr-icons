@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsPaymentCard = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrOsPaymentCard = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M35.625 14.163h-23.25c-.989 0-1.79.8-1.79 1.789v16.096c0 .988.801 1.789 1.79 1.789h23.25c.988 0 1.789-.8 1.789-1.789V15.952c0-.988-.8-1.789-1.789-1.789ZM10.586 18.47h26.828M10.586 23.34h26.828M15.104 29.46h6.26'
+      d='M35.625 14.243h-23.25c-.989 0-1.79.8-1.79 1.789v24.096c0 .988.801 1.789 1.79 1.789h23.25c.988 0 1.789-.8 1.789-1.789V15.952c0-.988-.8-1.789-1.789-1.789ZM10.586 18.47h26.828M10.586 23.34h26.828M15.104 29.46h6.26'
     />
     <path
       stroke={color}

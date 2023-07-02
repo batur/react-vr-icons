@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsSearch2 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrOsSearch2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M22.471 30.682a8.213 8.213 0 1 0 0-16.426 8.213 8.213 0 0 0 0 16.426ZM28.27 28.273l5.472 5.471'
+      d='M22.471 30.682a8.213 8.213 0 1 0 0-24.426 8.213 8.213 0 0 0 0 24.426ZM28.27 28.273l5.472 5.471'
     />
     <path
       stroke={color}

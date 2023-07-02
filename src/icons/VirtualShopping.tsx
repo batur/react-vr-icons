@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualShopping = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVirtualShopping = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M30.916 19.887H17.083a1.645 1.645 0 0 0-1.574 1.55l-2.194 12.987a1.68 1.68 0 0 0 1.576 1.914h18.217a1.68 1.68 0 0 0 1.576-1.914l-2.193-12.987a1.645 1.645 0 0 0-1.575-1.55Z'
+      d='M30.924 19.887H17.083a1.645 1.645 0 0 0-1.574 1.55l-2.194 12.987a1.68 1.68 0 0 0 1.576 1.914h18.217a1.68 1.68 0 0 0 1.576-1.914l-2.193-12.987a1.645 1.645 0 0 0-1.575-1.55Z'
     />
     <path
       stroke={color}

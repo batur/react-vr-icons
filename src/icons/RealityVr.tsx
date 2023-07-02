@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgRealityVr = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgRealityVr = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <ellipse
       cx={11.809}
@@ -11,7 +11,7 @@ const SvgRealityVr = ({ width = 16, height = 16, color = '#000', strokeWidth = 1
       ry={4.724}
       transform='matrix(-1 0 0 1 39.618 2.905)'
     />
-    <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='M39.618 30.29V7.628M16 7.629v16.31' />
+    <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='M39.618 30.29V7.628M24 7.629v24.31' />
     <path
       stroke={color}
       strokeLinecap='round'

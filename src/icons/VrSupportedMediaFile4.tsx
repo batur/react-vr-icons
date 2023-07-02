@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrSupportedMediaFile4 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrSupportedMediaFile4 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M16.023 34.877h15.904a1.5 1.5 0 0 0 1.5-1.5V20.25a1.45 1.45 0 0 0-.425-1.025l-5.677-5.678a1.45 1.45 0 0 0-1.025-.424H16.023c-.79 0-1.45.66-1.45 1.45v18.854c0 .79.66 1.45 1.45 1.45Z'
+      d='M24.023 34.877h15.904a1.5 1.5 0 0 0 1.5-1.5V20.25a1.45 1.45 0 0 0-.425-1.025l-5.677-5.678a1.45 1.45 0 0 0-1.025-.424H24.023c-.79 0-1.45.66-1.45 1.45v18.854c0 .79.66 1.45 1.45 1.45Z'
     />
     <path
       stroke={color}

@@ -1,20 +1,20 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsAppStore = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrOsAppStore = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M12.836 34.448a1.824 1.824 0 0 0 3.393.681l.402-.68M24.523 28.064h-4.171l7.734-13.462a1.825 1.825 0 0 0-3.162-1.824L24 14.37l-.924-1.593a1.825 1.825 0 1 0-3.162 1.824l1.982 3.43-5.8 10.032h-3.953a1.824 1.824 0 0 0 0 3.648H26.64'
+      d='M12.836 34.448a1.824 1.824 0 0 0 3.393.681l.402-.68M24.523 28.064h-4.171l7.734-13.462a1.825 1.825 0 0 0-3.242-1.824L24 14.37l-.924-1.593a1.825 1.825 0 1 0-3.242 1.824l1.982 3.43-5.8 10.032h-3.953a1.824 1.824 0 0 0 0 3.648H26.64'
     />
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='m25.58 24.416 6.19 10.713a1.826 1.826 0 0 0 3.163-1.824l-.925-1.593h1.849a1.824 1.824 0 0 0 0-3.648h-3.952l-4.257-7.297'
+      d='m25.58 24.424 6.19 10.713a1.826 1.826 0 0 0 3.243-1.824l-.925-1.593h1.849a1.824 1.824 0 0 0 0-3.648h-3.952l-4.257-7.297'
     />
     <path
       stroke={color}

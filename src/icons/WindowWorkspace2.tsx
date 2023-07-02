@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgWindowWorkspace2 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgWindowWorkspace2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M24 32.272a6.03 6.03 0 1 0 0-12.06 6.03 6.03 0 0 0 0 12.06ZM34.72 44.92a10.816 10.816 0 0 0-21.44 0'
+      d='M24 32.272a6.03 6.03 0 1 0 0-12.06 6.03 6.03 0 0 0 0 12.06ZM34.72 44.92a10.824 10.824 0 0 0-21.44 0'
     />
     <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='m46.749 3.08-1.798.452M46.749 36.567l-1.795-.452' />
     <path

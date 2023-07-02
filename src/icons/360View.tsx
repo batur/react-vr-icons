@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const Svg360View = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const Svg360View = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -13,7 +13,7 @@ const Svg360View = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='m21.997 36.43 4.727 4.727-4.727 4.726M18.81 16.18v.857a5.137 5.137 0 1 0 10.276 0v-.857a5.138 5.138 0 0 0-10.275 0Z'
+      d='m21.997 36.43 4.727 4.727-4.727 4.726M18.81 24.18v.857a5.137 5.137 0 1 0 10.276 0v-.857a5.138 5.138 0 0 0-10.275 0Z'
     />
     <path
       stroke={color}

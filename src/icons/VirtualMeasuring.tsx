@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualMeasuring = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVirtualMeasuring = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M18.309 37.39V11.97a.813.813 0 0 0-.814-.813H13.7a.814.814 0 0 0-.813.814V37.39M18.309 31.823h-2.17M18.309 24.273h-2.17M18.309 16.724h-2.17M31.771 36.588l.558-6.686h2.785v-3.9a5.572 5.572 0 0 0-11.143 0v3.9h2.786l.557 6.686h4.457ZM29.543 17.724a3.557 3.557 0 1 0 0-7.114 3.557 3.557 0 0 0 0 7.114Z'
+      d='M18.309 37.39V11.97a.813.813 0 0 0-.814-.813H13.7a.814.814 0 0 0-.813.814V37.39M18.309 31.823h-2.17M18.309 24.273h-2.17M18.309 24.724h-2.17M31.771 36.588l.558-6.686h2.785v-3.9a5.572 5.572 0 0 0-11.143 0v3.9h2.786l.557 6.686h4.457ZM29.543 17.724a3.557 3.557 0 1 0 0-7.114 3.557 3.557 0 0 0 0 7.114Z'
     />
     <path
       stroke={color}

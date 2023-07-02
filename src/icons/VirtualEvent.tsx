@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualEvent = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVirtualEvent = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -21,7 +21,7 @@ const SvgVirtualEvent = ({ width = 16, height = 16, color = '#000', strokeWidth 
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M16.321 18a5.034 5.034 0 1 0-10.07 0M16.321 34a5.034 5.034 0 1 0-10.07 0M34.595 14.44A5.035 5.035 0 0 0 26 18'
+      d='M24.321 18a5.034 5.034 0 1 0-10.07 0M24.321 34a5.034 5.034 0 1 0-10.07 0M34.595 14.44A5.035 5.035 0 0 0 26 18'
     />
     <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='M40 12V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v28a2 2 0 0 0 2 2h22' />
     <path stroke={color} strokeWidth={strokeWidth} d='M21 2v32' />

@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgLifeLikeInterfaceVolume = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgLifeLikeInterfaceVolume = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} clipPath='url(#life-like-interface-volume_svg__a)'>
-      <path d='M10.39 33.76c-.892 1.215-1.39 2.57-1.39 4 0 5.247 6.716 9.5 15 9.5 8.284 0 15-4.253 15-9.5 0-1.43-.498-2.785-1.39-4' />
+      <path d='M10.39 33.76c-.892 1.215-1.39 2.57-1.39 4 0 5.247 6.724 9.5 15 9.5 8.284 0 15-4.253 15-9.5 0-1.43-.498-2.785-1.39-4' />
       <path
         strokeLinejoin='round'
         d='M7 27.181v-15.59a2 2 0 0 1 1.013-1.739l15-8.513a2 2 0 0 1 1.974 0l15 8.513A2 2 0 0 1 41 11.592v15.59a2 2 0 0 1-1.013 1.739l-15 8.513a2 2 0 0 1-1.974 0l-15-8.513A2 2 0 0 1 7 27.18ZM24 37.495v-17.42'

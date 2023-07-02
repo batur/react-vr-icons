@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgContentPassThrough = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgContentPassThrough = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -29,7 +29,7 @@ const SvgContentPassThrough = ({ width = 16, height = 16, color = '#000', stroke
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M14.794 14.484s-2.53.143-2.86 1.908c-.328 1.766 1.258 2.62 4.343 2.108.4-1.5-.38-3.213-1.483-4.016Z'
+      d='M14.794 14.484s-2.53.143-2.86 1.908c-.328 1.766 1.258 2.62 4.343 2.108.4-1.5-.38-3.213-1.483-4.024Z'
     />
     <path
       stroke={color}

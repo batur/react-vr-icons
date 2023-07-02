@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgArViewSeeThrough = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgArViewSeeThrough = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -20,7 +20,7 @@ const SvgArViewSeeThrough = ({ width = 16, height = 16, color = '#000', strokeWi
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M23.983 34.716v-3.312M23.983 27.146v-1.493M33.632 29.647l3.44-1.81v-1.26M20.56 32.906l3.44 1.81 3.44-1.81M14.368 29.647l-3.44-1.81v-1.26'
+      d='M23.983 34.724v-3.312M23.983 27.146v-1.493M33.632 29.647l3.44-1.81v-1.26M20.56 32.906l3.44 1.81 3.44-1.81M14.368 29.647l-3.44-1.81v-1.26'
     />
   </svg>
 );

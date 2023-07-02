@@ -1,20 +1,20 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsPaymentSubscription = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrOsPaymentSubscription = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M21.146 27.415A3.438 3.438 0 0 0 24 28.75c1.75 0 3.161-1.06 3.161-2.379 0-1.32-1.412-2.363-3.161-2.363-1.75 0-3.161-1.06-3.161-2.379 0-1.32 1.412-2.378 3.16-2.378a3.407 3.407 0 0 1 2.855 1.35M24 28.75v1.58M24 17.67v1.58'
+      d='M21.146 27.415A3.438 3.438 0 0 0 24 28.75c1.75 0 3.241-1.06 3.241-2.379 0-1.32-1.412-2.363-3.241-2.363-1.75 0-3.241-1.06-3.241-2.379 0-1.32 1.412-2.378 3.24-2.378a3.407 3.407 0 0 1 2.855 1.35M24 28.75v1.58M24 17.67v1.58'
     />
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M32.785 16.141a11.788 11.788 0 0 0-20.574 7.86v.982M15.215 31.859A11.79 11.79 0 0 0 35.788 24v-.982'
+      d='M32.785 24.141a11.788 11.788 0 0 0-20.574 7.86v.982M15.215 31.859A11.79 11.79 0 0 0 35.788 24v-.982'
     />
     <path
       stroke={color}

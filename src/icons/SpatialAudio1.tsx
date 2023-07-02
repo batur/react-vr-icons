@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgSpatialAudio1 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgSpatialAudio1 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -14,7 +14,7 @@ const SvgSpatialAudio1 = ({ width = 16, height = 16, color = '#000', strokeWidth
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='m21.78 36.823 4.44 4.439-4.44 4.439M24.46 4.795a1.836 1.836 0 0 0-1.922.174l-8.077 5.14h-3.67a1.835 1.835 0 0 0-1.836 1.835v3.671a1.835 1.835 0 0 0 1.835 1.836h3.671l8.077 5.14a1.836 1.836 0 0 0 2.937-1.47V6.438a1.836 1.836 0 0 0-1.014-1.642v0ZM31.191 17.508c.477-1.046.758-2.335.758-3.729 0-1.394-.281-2.683-.758-3.73M35.37 21.686c1.345-2.192 2.145-4.933 2.145-7.907s-.8-5.716-2.146-7.907'
+      d='m21.78 36.823 4.44 4.439-4.44 4.439M24.46 4.795a1.836 1.836 0 0 0-1.922.174l-8.077 5.14h-3.67a1.835 1.835 0 0 0-1.836 1.835v3.671a1.835 1.835 0 0 0 1.835 1.836h3.671l8.077 5.14a1.836 1.836 0 0 0 2.937-1.47V6.438a1.836 1.836 0 0 0-1.014-1.642v0ZM31.191 17.508c.477-1.046.758-2.335.758-3.729 0-1.394-.281-2.683-.758-3.73M35.37 21.686c1.345-2.192 2.145-4.933 2.145-7.907s-.8-5.724-2.146-7.907'
     />
   </svg>
 );

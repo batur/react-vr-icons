@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgInfiniteCanvas2 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgInfiniteCanvas2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinecap='round' strokeLinejoin='round' strokeWidth={strokeWidth} clipPath='url(#infinite-canvas-2_svg__a)'>
       <path d='M28.742 35.42a6.774 6.774 0 1 0 0-13.549 6.774 6.774 0 0 0 0 13.55Z' />

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
 const SvgSharePlaySpatialExperience1 = ({
-  width = 16,
-  height = 16,
+  width = 24,
+  height = 24,
   color = '#000',
   strokeWidth = 1.5,
   ...props
@@ -17,7 +17,7 @@ const SvgSharePlaySpatialExperience1 = ({
       <path
         strokeLinecap='round'
         strokeLinejoin='round'
-        d='M38.315 24.836a4.002 4.002 0 0 0-8.005 0v1.716h1.716l.571 4.574h3.431l.572-4.574h1.715v-1.716ZM28.003 19.69a4.002 4.002 0 0 0-8.005 0v1.716h1.715l.572 4.574h3.43l.572-4.574h1.716V19.69ZM9.684 24.836a4.002 4.002 0 0 1 8.005 0v1.716h-1.715l-.572 4.574h-3.43l-.572-4.574H9.684v-1.716Z'
+        d='M38.315 24.836a4.002 4.002 0 0 0-8.005 0v1.724h1.724l.571 4.574h3.431l.572-4.574h1.715v-1.724ZM28.003 19.69a4.002 4.002 0 0 0-8.005 0v1.724h1.715l.572 4.574h3.43l.572-4.574h1.724V19.69ZM9.684 24.836a4.002 4.002 0 0 1 8.005 0v1.724h-1.715l-.572 4.574h-3.43l-.572-4.574H9.684v-1.724Z'
       />
       <path
         strokeLinecap='round'

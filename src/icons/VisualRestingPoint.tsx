@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVisualRestingPoint = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVisualRestingPoint = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -13,7 +13,7 @@ const SvgVisualRestingPoint = ({ width = 16, height = 16, color = '#000', stroke
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M14.005 19.267c1.828 3.397 5.617 5.731 9.995 5.731 4.379 0 8.168-2.334 9.996-5.731M16.015 21.877l-4.225 3.54M21.025 24.623l-2.034 5.124M31.985 21.877l4.225 3.54M26.969 24.623l2.034 5.124'
+      d='M14.005 19.267c1.828 3.397 5.617 5.731 9.995 5.731 4.379 0 8.248-2.334 9.996-5.731M24.015 21.877l-4.225 3.54M21.025 24.623l-2.034 5.124M31.985 21.877l4.225 3.54M26.969 24.623l2.034 5.124'
     />
   </svg>
 );

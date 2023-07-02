@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrController = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrController = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#vr-controller_svg__a)'>
       <path
@@ -14,9 +14,9 @@ const SvgVrController = ({ width = 16, height = 16, color = '#000', strokeWidth 
       />
       <path
         strokeLinecap='round'
-        d='m15.91 39.532 2.605-.698a2 2 0 0 0 1.414-2.45l-.424-1.582a2 2 0 0 0-2.446-1.416l-1.901.505M31.881 28.33l-2.604-.698a2 2 0 0 1-1.414-2.45l.42-1.567a2 2 0 0 1 2.46-1.412l1.882.516'
+        d='m15.91 39.532 2.605-.698a2 2 0 0 0 1.414-2.45l-.424-1.582a2 2 0 0 0-2.446-1.424l-1.901.505M31.881 28.33l-2.604-.698a2 2 0 0 1-1.414-2.45l.42-1.567a2 2 0 0 1 2.46-1.412l1.882.524'
       />
-      <path d='M33.88 9.25a2 2 0 1 1 0-4M33.88 9.25a2 2 0 1 0 0-4M38.916 14.737a2 2 0 1 1 0-4M38.916 14.737a2 2 0 0 0 0-4M11.891 18.31a2 2 0 0 1 3.987-.322' />
+      <path d='M33.88 9.25a2 2 0 1 1 0-4M33.88 9.25a2 2 0 1 0 0-4M38.924 14.737a2 2 0 1 1 0-4M38.924 14.737a2 2 0 0 0 0-4M11.891 18.31a2 2 0 0 1 3.987-.322' />
       <path d='M11.891 18.31a2 2 0 1 0 3.987-.322M6.826 23.77a2 2 0 0 1 3.987-.322M6.826 23.77a2 2 0 0 0 3.987-.322' />
     </g>
     <defs>

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgSelfPlayingArea2 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgSelfPlayingArea2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -9,7 +9,7 @@ const SvgSelfPlayingArea2 = ({ width = 16, height = 16, color = '#000', strokeWi
       strokeWidth={strokeWidth}
       d='m2 43.296 7.468-12.912a2 2 0 0 1 1.732-1h25.6a2 2 0 0 1 1.732 1L46 43.296H2Z'
     />
-    <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='M6.418 35.65h35.16M24 29.383v13.914' />
+    <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='M6.418 35.65h35.24M24 29.383v13.914' />
     <path
       stroke={color}
       strokeWidth={strokeWidth}

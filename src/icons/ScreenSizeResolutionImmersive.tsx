@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
 const SvgScreenSizeResolutionImmersive = ({
-  width = 16,
-  height = 16,
+  width = 24,
+  height = 24,
   color = '#000',
   strokeWidth = 1.5,
   ...props

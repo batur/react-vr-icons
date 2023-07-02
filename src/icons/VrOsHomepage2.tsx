@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsHomepage2 = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVrOsHomepage2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -14,7 +14,7 @@ const SvgVrOsHomepage2 = ({ width = 16, height = 16, color = '#000', strokeWidth
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M16.298 20v11.702a1.1 1.1 0 0 0 1.1 1.1h13.204a1.1 1.1 0 0 0 1.1-1.1V19.999'
+      d='M24.298 20v11.702a1.1 1.1 0 0 0 1.1 1.1h13.204a1.1 1.1 0 0 0 1.1-1.1V19.999'
     />
     <path
       stroke={color}

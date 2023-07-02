@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVisionComfortEyeStrain = ({ width = 16, height = 16, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SvgVisionComfortEyeStrain = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
       strokeLinecap='round'
       strokeLinejoin='round'
       strokeWidth={strokeWidth}
-      d='M23.997 10.27c-8.2-.136-16.682 5.593-22.014 11.462a3.383 3.383 0 0 0 0 4.528c5.214 5.745 13.673 11.609 22.014 11.47 8.34.139 16.8-5.724 22.02-11.47a3.383 3.383 0 0 0 0-4.528c-5.338-5.87-13.82-11.598-22.02-11.462Z'
+      d='M23.997 10.27c-8.2-.136-24.682 5.593-22.014 11.462a3.383 3.383 0 0 0 0 4.528c5.214 5.745 13.673 11.609 22.014 11.47 8.34.139 24.8-5.724 22.02-11.47a3.383 3.383 0 0 0 0-4.528c-5.338-5.87-13.82-11.598-22.02-11.462Z'
     />
     <path stroke={color} strokeWidth={strokeWidth} d='M15.392 24a8.641 8.641 0 0 0 8.641 8.641V15.358A8.641 8.641 0 0 0 15.392 24Z' />
     <path
