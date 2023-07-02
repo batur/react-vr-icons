@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualDisplayLaptop = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VirtualDisplayLaptop = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinejoin='round' strokeWidth={strokeWidth} clipPath='url(#virtual-display-laptop_svg__a)'>
       <path
@@ -17,5 +17,5 @@ const SvgVirtualDisplayLaptop = ({ width = 24, height = 24, color = '#000', stro
     </defs>
   </svg>
 );
-const Memo = memo(SvgVirtualDisplayLaptop);
+const Memo = memo(VirtualDisplayLaptop);
 export default Memo;

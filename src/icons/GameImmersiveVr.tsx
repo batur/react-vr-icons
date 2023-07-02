@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgGameImmersiveVr = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const GameImmersiveVr = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -23,5 +23,5 @@ const SvgGameImmersiveVr = ({ width = 24, height = 24, color = '#000', strokeWid
     <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='m2 7.91.158 13.842c0 1.597 2.243 3.052 5.71 4.147' />
   </svg>
 );
-const Memo = memo(SvgGameImmersiveVr);
+const Memo = memo(GameImmersiveVr);
 export default Memo;

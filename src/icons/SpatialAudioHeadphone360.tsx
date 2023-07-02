@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgSpatialAudioHeadphone360 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const SpatialAudioHeadphone360 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -19,5 +19,5 @@ const SvgSpatialAudioHeadphone360 = ({ width = 24, height = 24, color = '#000', 
     <path stroke={color} strokeLinecap='round' strokeLinejoin='round' strokeWidth={strokeWidth} d='m21.78 35.65 4.44 4.44-4.44 4.439' />
   </svg>
 );
-const Memo = memo(SvgSpatialAudioHeadphone360);
+const Memo = memo(SpatialAudioHeadphone360);
 export default Memo;

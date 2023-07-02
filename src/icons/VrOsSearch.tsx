@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsSearch = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VrOsSearch = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} clipPath='url(#vr-os-search_svg__a)'>
       <path
@@ -20,5 +20,5 @@ const SvgVrOsSearch = ({ width = 24, height = 24, color = '#000', strokeWidth = 
     </defs>
   </svg>
 );
-const Memo = memo(SvgVrOsSearch);
+const Memo = memo(VrOsSearch);
 export default Memo;

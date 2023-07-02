@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgMetaQuestPro = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const MetaQuestPro = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -13,5 +13,5 @@ const SvgMetaQuestPro = ({ width = 24, height = 24, color = '#000', strokeWidth 
     <path stroke={color} strokeWidth={strokeWidth} d='M24 29.269a.5.5 0 1 1 0-1M24 29.269a.5.5 0 1 0 0-1' />
   </svg>
 );
-const Memo = memo(SvgMetaQuestPro);
+const Memo = memo(MetaQuestPro);
 export default Memo;

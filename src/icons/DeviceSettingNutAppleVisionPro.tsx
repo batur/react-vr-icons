@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgDeviceSettingNutAppleVisionPro = ({
+const DeviceSettingNutAppleVisionPro = ({
   width = 24,
   height = 24,
   color = '#000',
@@ -30,5 +30,5 @@ const SvgDeviceSettingNutAppleVisionPro = ({
     />
   </svg>
 );
-const Memo = memo(SvgDeviceSettingNutAppleVisionPro);
+const Memo = memo(DeviceSettingNutAppleVisionPro);
 export default Memo;

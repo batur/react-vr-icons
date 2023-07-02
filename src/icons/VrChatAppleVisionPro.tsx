@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrChatAppleVisionPro = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VrChatAppleVisionPro = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#vr-chat-apple-vision-pro_svg__a)'>
       <path d='M11.284 21.97v.827a6.649 6.649 0 0 0 4.76 6.375 7.388 7.388 0 0 0 7.005-1.56l1.331-1.183a2.118 2.118 0 0 1 2.809-.004l1.366 1.207a7.373 7.373 0 0 0 6.983 1.54 6.635 6.635 0 0 0 4.743-6.36v-.838a7.76 7.76 0 0 0-7.072-7.73l-2.344-.208c-3.676-.191-3.623-.18-5.017-.18h-.13c-1.394 0-1.341-.01-5.017.18l-2.344.209a7.76 7.76 0 0 0-7.073 7.73' />
@@ -18,5 +18,5 @@ const SvgVrChatAppleVisionPro = ({ width = 24, height = 24, color = '#000', stro
     </defs>
   </svg>
 );
-const Memo = memo(SvgVrChatAppleVisionPro);
+const Memo = memo(VrChatAppleVisionPro);
 export default Memo;

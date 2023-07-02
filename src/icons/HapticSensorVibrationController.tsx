@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgHapticSensorVibrationController = (
-  props: SVGProps<SVGSVGElement> = { width: 24, height: 24, color: '#000', strokeWidth: 1.5 },
-) => (
+const HapticSensorVibrationController = (props: SVGProps<SVGSVGElement> = { width: 24, height: 24, color: '#000', strokeWidth: 1.5 }) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#haptic-sensor-vibration-controller_svg__a)'>
       <path
@@ -22,5 +20,5 @@ const SvgHapticSensorVibrationController = (
     </defs>
   </svg>
 );
-const Memo = memo(SvgHapticSensorVibrationController);
+const Memo = memo(HapticSensorVibrationController);
 export default Memo;

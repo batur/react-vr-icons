@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgDeviceCalibrationAppleVisionPro = (
-  props: SVGProps<SVGSVGElement> = { width: 24, height: 24, color: '#000', strokeWidth: 1.5 },
-) => (
+const DeviceCalibrationAppleVisionPro = (props: SVGProps<SVGSVGElement> = { width: 24, height: 24, color: '#000', strokeWidth: 1.5 }) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -20,5 +18,5 @@ const SvgDeviceCalibrationAppleVisionPro = (
     />
   </svg>
 );
-const Memo = memo(SvgDeviceCalibrationAppleVisionPro);
+const Memo = memo(DeviceCalibrationAppleVisionPro);
 export default Memo;

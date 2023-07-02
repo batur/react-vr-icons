@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualDisplayDesktop = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VirtualDisplayDesktop = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinejoin='round' strokeWidth={strokeWidth} clipPath='url(#virtual-display-desktop_svg__a)'>
       <path strokeLinecap='round' d='M35.353 1.109 24.085 6.757v13.556l11.268 5.649 11.267-5.649V6.757L35.353 1.109Z' />
@@ -17,5 +17,5 @@ const SvgVirtualDisplayDesktop = ({ width = 24, height = 24, color = '#000', str
     </defs>
   </svg>
 );
-const Memo = memo(SvgVirtualDisplayDesktop);
+const Memo = memo(VirtualDisplayDesktop);
 export default Memo;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgLazyMovingAnimation = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const LazyMovingAnimation = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path stroke={color} strokeWidth={strokeWidth} d='M1 13a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v21a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4V13Z' />
     <path
@@ -14,5 +14,5 @@ const SvgLazyMovingAnimation = ({ width = 24, height = 24, color = '#000', strok
     <path stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} d='M14.5 41.5h14' />
   </svg>
 );
-const Memo = memo(SvgLazyMovingAnimation);
+const Memo = memo(LazyMovingAnimation);
 export default Memo;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVrOsPaymentWallet = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VrOsPaymentWallet = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -25,5 +25,5 @@ const SvgVrOsPaymentWallet = ({ width = 24, height = 24, color = '#000', strokeW
     />
   </svg>
 );
-const Memo = memo(SvgVrOsPaymentWallet);
+const Memo = memo(VrOsPaymentWallet);
 export default Memo;

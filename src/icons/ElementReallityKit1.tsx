@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgElementReallityKit1 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const ElementReallityKit1 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path stroke={color} strokeWidth={strokeWidth} d='M14.59 44a.5.5 0 1 1 0-1M14.59 44a.5.5 0 0 0 0-1' />
     <path
@@ -37,5 +37,5 @@ const SvgElementReallityKit1 = ({ width = 24, height = 24, color = '#000', strok
     />
   </svg>
 );
-const Memo = memo(SvgElementReallityKit1);
+const Memo = memo(ElementReallityKit1);
 export default Memo;

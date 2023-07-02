@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgToolsArKit = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const ToolsArKit = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinejoin='round' strokeWidth={strokeWidth} clipPath='url(#tools-AR-kit_svg__a)'>
       <path
@@ -19,5 +19,5 @@ const SvgToolsArKit = ({ width = 24, height = 24, color = '#000', strokeWidth = 
     </defs>
   </svg>
 );
-const Memo = memo(SvgToolsArKit);
+const Memo = memo(ToolsArKit);
 export default Memo;

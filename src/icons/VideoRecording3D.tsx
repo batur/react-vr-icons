@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const Svg3DVideoRecording = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VideoRecording3D = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -11,5 +11,5 @@ const Svg3DVideoRecording = ({ width = 24, height = 24, color = '#000', strokeWi
     />
   </svg>
 );
-const Memo = memo(Svg3DVideoRecording);
+const Memo = memo(VideoRecording3D);
 export default Memo;

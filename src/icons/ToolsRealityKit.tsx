@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgToolsRealityKit = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const ToolsRealityKit = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#tools-reality-kit_svg__a)'>
       <path
@@ -25,5 +25,5 @@ const SvgToolsRealityKit = ({ width = 24, height = 24, color = '#000', strokeWid
     </defs>
   </svg>
 );
-const Memo = memo(SvgToolsRealityKit);
+const Memo = memo(ToolsRealityKit);
 export default Memo;

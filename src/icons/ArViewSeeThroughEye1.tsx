@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgArViewSeeThroughEye1 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const ArViewSeeThroughEye1 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -19,5 +19,5 @@ const SvgArViewSeeThroughEye1 = ({ width = 24, height = 24, color = '#000', stro
     <path stroke={color} strokeLinecap='round' strokeLinejoin='round' strokeWidth={strokeWidth} d='m21.78 36.73 4.438 4.44-4.439 4.438' />
   </svg>
 );
-const Memo = memo(SvgArViewSeeThroughEye1);
+const Memo = memo(ArViewSeeThroughEye1);
 export default Memo;

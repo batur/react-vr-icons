@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgToolsUnity = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const ToolsUnity = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <path
       stroke={color}
@@ -11,5 +11,5 @@ const SvgToolsUnity = ({ width = 24, height = 24, color = '#000', strokeWidth = 
     />
   </svg>
 );
-const Memo = memo(SvgToolsUnity);
+const Memo = memo(ToolsUnity);
 export default Memo;

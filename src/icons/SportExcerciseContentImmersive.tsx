@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgSportExcerciseContentImmersive = ({
+const SportExcerciseContentImmersive = ({
   width = 24,
   height = 24,
   color = '#000',
@@ -22,5 +22,5 @@ const SvgSportExcerciseContentImmersive = ({
     />
   </svg>
 );
-const Memo = memo(SvgSportExcerciseContentImmersive);
+const Memo = memo(SportExcerciseContentImmersive);
 export default Memo;

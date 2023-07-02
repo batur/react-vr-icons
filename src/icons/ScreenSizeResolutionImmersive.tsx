@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgScreenSizeResolutionImmersive = ({
+const ScreenSizeResolutionImmersive = ({
   width = 24,
   height = 24,
   color = '#000',
@@ -24,5 +24,5 @@ const SvgScreenSizeResolutionImmersive = ({
     />
   </svg>
 );
-const Memo = memo(SvgScreenSizeResolutionImmersive);
+const Memo = memo(ScreenSizeResolutionImmersive);
 export default Memo;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVisionComfortFocus2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VisionComfortFocus2 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinecap='round' strokeLinejoin='round' strokeWidth={strokeWidth} clipPath='url(#vision-comfort-focus-2_svg__a)'>
       <path d='M31.287 17.95a7.34 7.34 0 0 1-14.681 0V12.59a1.223 1.223 0 0 1 1.761-1.101l5.58 2.79 5.578-2.79a1.223 1.223 0 0 1 1.762 1.101v5.359ZM23.946 25.29v9.788M13.304 26.378c5.632 1.754 7.793 3.852 10.643 8.7h-2.945c-7.682 0-8.333-5.8-7.698-8.7Z' />
@@ -13,5 +13,5 @@ const SvgVisionComfortFocus2 = ({ width = 24, height = 24, color = '#000', strok
     </defs>
   </svg>
 );
-const Memo = memo(SvgVisionComfortFocus2);
+const Memo = memo(VisionComfortFocus2);
 export default Memo;

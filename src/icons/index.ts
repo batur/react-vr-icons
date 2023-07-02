@@ -1,6 +1,6 @@
-export { default as Svg360View } from './360View';
-export { default as Svg3DVideoPlayback } from './3DVideoPlayback';
-export { default as Svg3DVideoRecording } from './3DVideoRecording';
+export { default as View360 } from './View360';
+export { default as VideoPlayback3D } from './VideoPlayback3D';
+export { default as VideoRecording3D } from './VideoRecording3D';
 export { default as ArViewSeeThroughDevice1 } from './ArViewSeeThroughDevice1';
 export { default as ArViewSeeThroughDevice } from './ArViewSeeThroughDevice';
 export { default as ArViewSeeThroughEye1 } from './ArViewSeeThroughEye1';

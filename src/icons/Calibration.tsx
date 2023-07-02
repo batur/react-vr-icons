@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgCalibration = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const Calibration = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <circle cx={24} cy={24} r={18} stroke={color} strokeWidth={strokeWidth} />
     <path
@@ -12,5 +12,5 @@ const SvgCalibration = ({ width = 24, height = 24, color = '#000', strokeWidth =
     />
   </svg>
 );
-const Memo = memo(SvgCalibration);
+const Memo = memo(Calibration);
 export default Memo;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualEnvironmentNight = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const VirtualEnvironmentNight = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeLinecap='round' strokeWidth={strokeWidth} clipPath='url(#virtual-environment-night_svg__a)'>
       <path
@@ -16,5 +16,5 @@ const SvgVirtualEnvironmentNight = ({ width = 24, height = 24, color = '#000', s
     </defs>
   </svg>
 );
-const Memo = memo(SvgVirtualEnvironmentNight);
+const Memo = memo(VirtualEnvironmentNight);
 export default Memo;

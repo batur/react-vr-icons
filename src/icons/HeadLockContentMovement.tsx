@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgHeadLockContentMovement = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
+const HeadLockContentMovement = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#head-lock-content-movement_svg__a)'>
       <path
@@ -28,5 +28,5 @@ const SvgHeadLockContentMovement = ({ width = 24, height = 24, color = '#000', s
     </defs>
   </svg>
 );
-const Memo = memo(SvgHeadLockContentMovement);
+const Memo = memo(HeadLockContentMovement);
 export default Memo;

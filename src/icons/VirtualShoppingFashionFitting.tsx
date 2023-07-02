@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgVirtualShoppingFashionFitting = ({
+const VirtualShoppingFashionFitting = ({
   width = 24,
   height = 24,
   color = '#000',
@@ -37,5 +37,5 @@ const SvgVirtualShoppingFashionFitting = ({
     />
   </svg>
 );
-const Memo = memo(SvgVirtualShoppingFashionFitting);
+const Memo = memo(VirtualShoppingFashionFitting);
 export default Memo;

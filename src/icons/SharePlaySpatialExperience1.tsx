@@ -1,12 +1,6 @@
 import * as React from 'react';
 import { SVGProps, memo } from 'react';
-const SvgSharePlaySpatialExperience1 = ({
-  width = 24,
-  height = 24,
-  color = '#000',
-  strokeWidth = 1.5,
-  ...props
-}: SVGProps<SVGSVGElement>) => (
+const SharePlaySpatialExperience1 = ({ width = 24, height = 24, color = '#000', strokeWidth = 1.5, ...props }: SVGProps<SVGSVGElement>) => (
   <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 48 48' {...props}>
     <g stroke={color} strokeWidth={strokeWidth} clipPath='url(#share-play-spatial-experience-1_svg__a)'>
       <path
@@ -33,5 +27,5 @@ const SvgSharePlaySpatialExperience1 = ({
     </defs>
   </svg>
 );
-const Memo = memo(SvgSharePlaySpatialExperience1);
+const Memo = memo(SharePlaySpatialExperience1);
 export default Memo;
