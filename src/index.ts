@@ -1,6 +1,6 @@
-export { default as SvgView360 } from './icons/View360';
-export { default as SvgVideoPlayback3D } from './icons/VideoPlayback3D';
-export { default as SvgVideoRecording3D } from './icons/VideoRecording3D';
+export { default as View360 } from './icons/View360';
+export { default as VideoPlayback3D } from './icons/VideoPlayback3D';
+export { default as VideoRecording3D } from './icons/VideoRecording3D';
 export { default as ArViewSeeThroughDevice1 } from './icons/ArViewSeeThroughDevice1';
 export { default as ArViewSeeThroughDevice } from './icons/ArViewSeeThroughDevice';
 export { default as ArViewSeeThroughEye1 } from './icons/ArViewSeeThroughEye1';
